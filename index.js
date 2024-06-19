@@ -2,7 +2,7 @@
 function callApi() {
     const cityName = document.getElementById('cityname').value;
     const apiKey = "c230c68f4bd43bc9a85532273121b413";
-    const baseUrl = "http://api.openweathermap.org/data/2.5/weather";
+    const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
     const units = "metric";
 
     const apiUrl = `${baseUrl}?q=${cityName}&appid=${apiKey}&units=${units}`;
